@@ -61,7 +61,7 @@ jobs:
           username: ${{secrets.EMAIL_USERNAME}}
           password: ${{secrets.EMAIL_PASSWORD}}
           subject: Playwright Tests - ${{job.status}} - ${{github.repository}}
-          to: your-email@example.com
+          to: khalanhappiness@gmail.com
           from: GitHub Actions
           body: |
             Test run completed with status: ${{job.status}}
