@@ -54,5 +54,4 @@ test('Dashboard ', async ({page})=>{
   await page.getByRole('link', { name: 'Dashboard' }).click();
 
 
-    await page.pause()
 })

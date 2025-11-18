@@ -52,6 +52,5 @@ test('Testing the propel learning page', async({page, context})=>{
 
 
 
-  await page.pause()
 
 })

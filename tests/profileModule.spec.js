@@ -16,5 +16,4 @@ test('Testing the profile page', async({page})=>{
  await page.getByRole('menuitem', { name: 'My Profile' }).click();
  await expect(page.getByRole('heading', { name: 'My Profile' })).toBeVisible();
 
-  await page.pause()
 })

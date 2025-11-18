@@ -160,5 +160,4 @@ console.log(`Total jobs counted: ${allJobsCount}, Expected: ${totalJobsFromTab}`
 
   
   console.log(`Tab shows: ${tab3Count} jobs, Page displays: ${displayCount3} jobs`);
-  await page.pause()
 })
